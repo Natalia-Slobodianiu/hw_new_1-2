@@ -65,6 +65,11 @@ body {
     color: var(--navy-blue);
 }
 
+.header__link:hover,
+.header__link:focus {
+    color: var(--iris); 
+}
+
 .header__link.current {
     color: var(--iris);
 }
